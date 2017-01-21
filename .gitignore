@@ -1,0 +1,4 @@
+node_modules
+apps/aloogle/node_modules
+ignored
+apps/hello_world/*
