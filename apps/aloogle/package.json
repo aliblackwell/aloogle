@@ -1,0 +1,11 @@
+{
+  "name": "aloogle",
+  "version": "1.0.0",
+  "description": "A sample Alexa app",
+  "main": "index.js",
+  "author": "Ali Blackwell <aliblackwell+github@gmail.com>",
+  "license": "ISC",
+  "alexa": {
+    "applicationId": "amzn1.ask.skill.3c383bf2-5c0e-4a78-a5c2-5182207a7b67"
+  }
+}
