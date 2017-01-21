@@ -1,0 +1,29 @@
+{
+  "name": "aloogle",
+  "version": "1.0.0",
+  "description": "Ask Alexa to Google something for you",
+  "author": "Ali Blackwell",
+  "main": "server.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "start": "node server.js",
+    "test": "ava",
+    "dev": "node server-dev.js"
+  },
+  "dependencies": {
+    "alexa-app": "^2.4.0",
+    "alexa-app-server": "^2.3.1",
+    "alexa-verifier-middleware": "^0.1.4",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-regenerator": "^6.21.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0"
+  }
+}
